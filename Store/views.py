@@ -4,8 +4,6 @@ from django.shortcuts import render
 from django_user_agents.utils import get_user_agent
 import qrcode
 
-# Create your views here.
-
 
 def index_view(request):
     user_agent = get_user_agent(request)
